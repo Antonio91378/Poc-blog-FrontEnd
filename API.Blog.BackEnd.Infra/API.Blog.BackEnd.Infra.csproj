@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.17.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Blog.BackEnd.Domain\API.Blog.BackEnd.Domain.csproj" />
+    <ProjectReference Include="..\API.Blog.BackEnd.Utils\API.Blog.BackEnd.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

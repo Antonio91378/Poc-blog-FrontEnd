@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oW16759PT81PezM0XdX52I83AoN8RGjN320HeB2PdiU=",
+  "Source": "API.Blog.BackEnd.ASP",
+  "BasePath": "_content/API.Blog.BackEnd.ASP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

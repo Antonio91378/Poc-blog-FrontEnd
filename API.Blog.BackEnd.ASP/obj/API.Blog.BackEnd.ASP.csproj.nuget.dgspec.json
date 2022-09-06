@@ -1,0 +1,394 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.ASP\\API.Blog.BackEnd.ASP.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.ASP\\API.Blog.BackEnd.ASP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.ASP\\API.Blog.BackEnd.ASP.csproj",
+        "projectName": "API.Blog.BackEnd.ASP",
+        "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.ASP\\API.Blog.BackEnd.ASP.csproj",
+        "packagesPath": "C:\\Users\\antonio.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.ASP\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\antonio.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Domain\\API.Blog.BackEnd.Domain.csproj": {
+                "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Domain\\API.Blog.BackEnd.Domain.csproj"
+              },
+              "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Service\\API.Blog.BackEnd.Service.csproj": {
+                "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Service\\API.Blog.BackEnd.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Domain\\API.Blog.BackEnd.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Domain\\API.Blog.BackEnd.Domain.csproj",
+        "projectName": "API.Blog.BackEnd.Domain",
+        "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Domain\\API.Blog.BackEnd.Domain.csproj",
+        "packagesPath": "C:\\Users\\antonio.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\antonio.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Infra\\API.Blog.BackEnd.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Infra\\API.Blog.BackEnd.Infra.csproj",
+        "projectName": "API.Blog.BackEnd.Infra",
+        "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Infra\\API.Blog.BackEnd.Infra.csproj",
+        "packagesPath": "C:\\Users\\antonio.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\antonio.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Domain\\API.Blog.BackEnd.Domain.csproj": {
+                "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Domain\\API.Blog.BackEnd.Domain.csproj"
+              },
+              "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Utils\\API.Blog.BackEnd.Utils.csproj": {
+                "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Utils\\API.Blog.BackEnd.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Service\\API.Blog.BackEnd.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Service\\API.Blog.BackEnd.Service.csproj",
+        "projectName": "API.Blog.BackEnd.Service",
+        "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Service\\API.Blog.BackEnd.Service.csproj",
+        "packagesPath": "C:\\Users\\antonio.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\antonio.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Domain\\API.Blog.BackEnd.Domain.csproj": {
+                "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Domain\\API.Blog.BackEnd.Domain.csproj"
+              },
+              "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Infra\\API.Blog.BackEnd.Infra.csproj": {
+                "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Infra\\API.Blog.BackEnd.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Utils\\API.Blog.BackEnd.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Utils\\API.Blog.BackEnd.Utils.csproj",
+        "projectName": "API.Blog.BackEnd.Utils",
+        "projectPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Utils\\API.Blog.BackEnd.Utils.csproj",
+        "packagesPath": "C:\\Users\\antonio.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antonio.dias\\Desktop\\me\\Personal_Projects\\PocBlog\\API.Blog.BackEnd\\API.Blog.BackEnd.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\antonio.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
